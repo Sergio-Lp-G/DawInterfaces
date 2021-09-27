@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Ballpark';
+    src: url(recursos/fonts/ballpark.eot);
+    src:url(recursos/fonts/ballpark.ttf);
+}
+@font-face{
+    font-family:  'Dayrom';
+    src: url(recursos/fonts/dayrom.ttf);
+}
+
+*{
+    border:solid 2px red;
+    padding: 0.5%;
+}
+
+body{
+    background-color: #fff7da;
+}
+
+
+section{
+    margin: 2%;
+    width: 90%;
+}
+aside{
+    float: right;
+    width: 20%;
+}
+article{
+    width: 70%;
+    
+}
+
+nav {
+    float: right;
+    display: inline;
+}
+nav li{
+    list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+   text-transform: uppercase;
+}
+.rotate90{
+    transform: rotate(90);
+}
+h2{
+    text-transform: uppercase;
+    font-family: 'Dayrom';
+}
+
+.logo{
+    font-family: 'Ballpark';
+    font-size: xx-large;
+}
