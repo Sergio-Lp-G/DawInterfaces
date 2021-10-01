@@ -10,7 +10,7 @@
 
 /* *{
     border:solid 2px red;
-    padding: 0.5%;
+    
 } */
 
 body{
@@ -21,6 +21,7 @@ body{
 section{
     margin: 2%;
     width: 90%;
+    box-sizing: border-box;
 }
 aside{
     
@@ -28,10 +29,13 @@ aside{
     width: 20%;
     background-color: grey;
     margin:2%;
+    padding: 1%;
+    box-sizing: border-box;
 }
 article{
     width: 70%;
-    
+    box-sizing: border-box;
+    padding: 1%;
 }
 
 nav {
@@ -51,6 +55,8 @@ nav li{
 .rotate90{
     transform: rotate(90);
 }
+
+
 h2{
     text-transform: uppercase;
     font-family: 'Dayrom';
@@ -59,4 +65,8 @@ h2{
 .logo{
     font-family: 'Ballpark';
     font-size: xx-large;
+}
+#burro{
+    border-color:black solid 2px ;
+    text-align: center;
 }
